@@ -60,19 +60,22 @@ int main(){
     //     t1 = t2;
     //     t2 = nextTerm;
     //     cout<<nextTerm<<", ";
-    // }
-    int n,t1 =0, t2 = 1, nextTerm = 0;
-    cout<<"Enter the number of terms: ";
-    cin>>n;
+    // // }
+    // int n,t1 =0, t2 = 1, nextTerm = 0;
+    // cout<<"Enter the number of terms: ";
+    // cin>>n;
     
-    cout<< "Fibonachi Series: " << t1<< ", "<<t2 << ", ";
-    nextTerm = t1 + t2;
-    while(nextTerm<=n){
-        cout<<nextTerm<< ", ";
-        t1 = t2;
-        t2 = nextTerm;
-        nextTerm = t1 + t2;
-        
-    }
+    // cout<< "Fibonachi Series: " << t1<< ", "<<t2 << ", ";
+    // nextTerm = t1 + t2;
+    // while(nextTerm<=n){
+    //     cout<<nextTerm<< ", ";
+    //     t1 = t2;
+    //     t2 = nextTerm;
+    //     nextTerm = t1 + t2;
+
+    // }
+
+    char a = 'A';
+    cout<<"The ASCII vlau of "<< a <<"is"<< int(a);
     return 0;
 }
