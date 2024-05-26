@@ -75,7 +75,23 @@ int main(){
 
     // }
 
-    char a = 'A';
-    cout<<"The ASCII vlau of "<< a <<"is"<< int(a);
+    // char a = 'A';
+    // cout<<"The ASCII vlau of "<< a <<"is"<< int(a);
+
+    // Swapping two numbers;
+    // int a = 12;
+    // int b =141;
+    // int temp;
+
+    // temp = a; // 
+    // cout<<"The value of temp: " << temp;
+    // a = b;
+    // cout<<"The value of a is : "<< a << endl;
+    // b = temp;
+    // cout<< "The value of a is" <<a << endl;
+    // cout<<"The value of b is : "<<b;
+
+
+    
     return 0;
 }
